@@ -1,0 +1,8 @@
+<jboss-deployment-structure>
+  <sub-deployment name="soapHeader-1.0.0.war">
+    <dependencies>
+          <module name="org.apache.cxf.impl" slot="main"/>
+          <module name="org.apache.cxf" slot="main"/>
+    </dependencies>
+   </sub-deployment> 
+</jboss-deployment-structure>
